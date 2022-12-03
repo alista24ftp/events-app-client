@@ -1,0 +1,25 @@
+.db-population-page {
+    .db-action-btn {
+        color: #fff;
+        width: fit-content;
+        margin-top: 1rem;
+        margin-right: 2rem;
+        font-size: 1rem;
+        padding: 0.2rem 1.5rem;
+        border-radius: 3rem;
+        &:hover {
+            cursor: pointer;
+        }
+
+        &--reset {
+            background-color: #d32f2f;
+            border-color: #d32f2f;
+        }
+
+        &--seed {
+            background-color: #0f9fea;
+            border-color: #0f9fea;
+        }
+    }
+}
+
